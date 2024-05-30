@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Temperatura {
+    public static void main(String[] args) {
+       //Fórmula = (°F - 32) x 5/9 = °C
+        double tempF;
+        Scanner ler = new Scanner(System.in);
+
+        System.out.println("Digite a temperatura em graus farenheit");
+        tempF = ler.nextDouble();
+        double converte = (tempF - 32) * 5/9;
+        System.out.println(converte + "°C");
+    }
+    
+}
